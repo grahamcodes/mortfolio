@@ -120,7 +120,7 @@ const Projects: React.FC = () => {
             <img
             src="/assests/site.png"
             alt="This Website"
-            className="w-full rounded"
+            className="w-full rounded border-2 border-cyan-900"
             />
           </div>
 

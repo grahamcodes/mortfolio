@@ -37,7 +37,15 @@ const Header: React.FC = () => {
         <TextLink text="Home" href="#" />
         <TextLink text="Projects" href="#projects" />
         <TextLink text="Skills" href="#skills" />  
-        <TextLink text="Resume" href="/documents/resume.pdf" target="_blank" rel="noopener noreferrer"/>
+        <Link href="/documents/resume.pdf" passHref>
+          <a 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="cursor-pointer rounded-md px-4 py-[0.10rem] text-xl text-gray-200 duration-100 hover:bg-cyan-900"
+          >
+            Resume
+          </a>
+        </Link>
       </p>
 
       <div className="hidden sm:flex sm:flex-row sm:gap-x-2">

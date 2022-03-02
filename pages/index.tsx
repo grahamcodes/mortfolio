@@ -9,7 +9,6 @@ const Home: NextPage = () => {
       <About />
       <Projects />
       <Skills />
-
     </div>
   );
 };
