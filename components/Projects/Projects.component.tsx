@@ -50,7 +50,7 @@ const Projects: React.FC = () => {
 
   return (
     <div className="my-16 px-3 font-sen" id="projects">
-      <p className="text-3xl font-bold text-white">Things I&apos;ve Made</p>
+      <p className="text-3xl font-bold text-white">Things Ive Made</p>
       
       {/* Cards and info text*/}
       <div className="flex flex-col sm:flex-row justify-around gap-10 p-4 sm:p-8">
@@ -59,7 +59,7 @@ const Projects: React.FC = () => {
         <div className="min-w-fit justify-items-center grid grid-cols-1 md:grid-cols-2 my-8 gap-10">
 
           <div 
-          className="flex items-center w-64 h-48 hover:scale-150 duration-300"
+          className="flex justify-center items-center w-64 h-48 hover:scale-150 duration-300"
           onClick={() => handleClick(0)}
           >
             <img
@@ -70,7 +70,7 @@ const Projects: React.FC = () => {
           </div>
 
           <div 
-          className="grid justify-items-center w-64 h-48 hover:scale-150 duration-300 "
+          className="flex justify-center items-center w-64 h-48 hover:scale-150 duration-300"
           onClick={() => handleClick(1)}
           >
             <img
@@ -81,7 +81,7 @@ const Projects: React.FC = () => {
           </div>
 
           <div 
-          className="flex items-center w-64 h-48 hover:scale-150 duration-300"
+          className="flex justify-center items-center w-64 h-48 hover:scale-150 duration-300"
           onClick={() => handleClick(2)}
           >
             <img
@@ -92,7 +92,7 @@ const Projects: React.FC = () => {
           </div>
 
           <div 
-          className="grid justify-items-center w-64 h-48 hover:scale-150 duration-300"
+          className="flex justify-center items-center w-64 h-48 hover:scale-150 duration-300"
           onClick={() => handleClick(3)}
           >
             <img
@@ -103,7 +103,7 @@ const Projects: React.FC = () => {
           </div>
 
           <div 
-          className="flex items-center w-64 h-48 hover:scale-150 duration-300"
+          className="flex justify-center items-center w-64 h-48 hover:scale-150 duration-300"
           onClick={() => handleClick(4)}
           >
             <img
@@ -114,7 +114,7 @@ const Projects: React.FC = () => {
           </div>
 
           <div 
-          className="flex items-center w-64 h-48 hover:scale-150 duration-300"
+          className="flex justify-center items-center w-64 h-48 hover:scale-150 duration-300"
           onClick={() => handleClick(5)}
           >
             <img
