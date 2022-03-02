@@ -50,7 +50,7 @@ const Projects: React.FC = () => {
 
   return (
     <div className="my-16 px-3 font-sen" id="projects">
-      <p className="text-3xl font-bold text-white">Things I&apos;ve Made</p>
+      <p className="text-3xl font-bold text-white text-center">Things I&apos;ve Made</p>
       
       {/* Cards and info text*/}
       <div className="flex flex-col sm:flex-row justify-around gap-10 p-4 sm:p-8">

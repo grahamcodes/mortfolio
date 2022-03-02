@@ -3,8 +3,8 @@ import { BsArrowRightShort } from "../Icons";
 const Skills = () => {
   return (
     <div className="my-16 px-3 font-sen text-white" id="skills">
-      <p className="text-3xl font-bold text-white">Skills</p>
-      <div className="flex flex-row my-8 justify-between" >
+      <p className="text-3xl font-bold text-white text-center">Skills</p>
+      <div className="flex flex-col sm:flex-row text-center my-8 justify-between" >
         <ul className="text-sm text-slate-300">
           <li className="text-lg underline">Languages</li>
           <li>Java</li>
