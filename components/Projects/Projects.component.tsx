@@ -36,7 +36,7 @@ const Projects: React.FC = () => {
     {
       title: "This Website",
       content: "This is the site you're looking at right now! This is my first forray into React and while this static site is simple, it has really been an exciting and eye-opening introduction to power of modern web-dev. Built with React, Next.js, and styled with Tailwind CSS.",
-      link: "https://github.com/grahamcodes/MorseCoder"
+      link: "https://github.com/grahamcodes/portfolio"
     }
   ]
 
@@ -50,7 +50,7 @@ const Projects: React.FC = () => {
 
   return (
     <div className="my-16 px-3 font-sen" id="projects">
-      <p className="text-3xl font-bold text-white">Things I've Made</p>
+      <p className="text-3xl font-bold text-white">Things I&apos;ve Made</p>
       
       {/* Cards and info text*/}
       <div className="flex flex-col sm:flex-row justify-around gap-10 p-4 sm:p-8">
