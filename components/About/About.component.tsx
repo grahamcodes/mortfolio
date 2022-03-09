@@ -18,7 +18,7 @@ const About = () => {
         </p>
       </div>
 
-      <div className="my-8">
+      <div className="my-8 order-first sm:order-last">
         <Image
           src="/assests/avatar.jpeg"
           width="200p"

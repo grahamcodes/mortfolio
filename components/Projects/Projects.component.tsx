@@ -41,7 +41,7 @@ const Projects: React.FC = () => {
   ]
 
   const handleClick = (num) => {
-      scroll(0, 550);
+      window.scrollTo({ top: 550, behavior: 'smooth' });
       setSelected(true);
       setProjectName(projects[num].title);
       setDescription(projects[num].content);
