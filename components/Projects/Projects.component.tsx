@@ -41,7 +41,7 @@ const Projects: React.FC = () => {
   ]
 
   const handleClick = (num) => {
-      scroll(0, 500);
+      scroll(0, 550);
       setSelected(true);
       setProjectName(projects[num].title);
       setDescription(projects[num].content);
@@ -50,7 +50,7 @@ const Projects: React.FC = () => {
 
   return (
     <div className="my-16 px-3 font-sen" id="projects">
-      <p className="text-3xl font-bold text-white text-center">Things I&apos;ve Made</p>
+      <p className="text-3xl font-bold text-sludge text-center">Things I&apos;ve Made</p>
       
       {/* Cards and info text*/}
       <div className="flex flex-col sm:flex-row justify-around gap-10 p-4 sm:p-8">
@@ -127,10 +127,10 @@ const Projects: React.FC = () => {
         </div>
         {/* Project Info */}
         <div className="flex flex-col items-center min-w-[30%] w-full my-8 order-first sm:order-last text-gray-400">
-          <h1 className="text-2xl font-bold text-white text-center">{projectName}</h1>
-          <p className="mt-4 text-justify">{description}</p>
+          <h1 className="text-2xl font-bold underline text-creamsicle text-center">{projectName}</h1>
+          <p className="mt-4 text-sludge text-justify">{description}</p>
           {/* <button className="w-1/3 bg-white">Hello</button> */}
-          <div className={"mt-8 rounded-lg border-2 border-cyan-900 bg-cyan-800 p-2 text-white cursor-pointer hover:border-white " + (selected ? "visible" : "invisible")}
+          <div className={"mt-8 rounded-lg bg-egg p-2 text-sludge cursor-pointer hover:bg-creme " + (selected ? "visible" : "invisible")}
           onClick={() => window.open(link)}>Check it out!</div>
         </div> 
 
