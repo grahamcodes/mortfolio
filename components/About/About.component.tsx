@@ -12,8 +12,8 @@ const About = () => {
 
         <p className="mt-4 text-sludge text-justify">
           Hi there, I&apos;m Graham. I&apos;m a full stack developer and recent grad of Computer Programming at Algonquin College. 
-          I am based out of Ottawa, Ontario. Some call it the city that fun forgot, but I&apos;ve had fun here at least twice so that can&apos;t be true. 
-          This website is a simple showcase of my projects that I&apos;ve been working on and a list of some of the skills I have acquired along the way. 
+          I am based out of Ottawa, Ontario. This website is a simple showcase of my projects that I&apos;ve been working on and 
+          a list of some of the skills I have acquired along the way. 
           Welcome, and enjoy! 
         </p>
       </div>
