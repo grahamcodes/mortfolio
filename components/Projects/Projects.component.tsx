@@ -11,12 +11,12 @@ const Projects: React.FC = () => {
     {
       title: "HabsGrudgeBot",
       content: "This bot monitors Reddit comments on the Montreal Canadiens subreddit, hunting for target names and responding accordingly when these names are mentioned. This project is silly and quite useless, however it has taken on a life of its own. Currently in construction is a front and back end allowing for an administrator to CRUD targets and responses. Built using Python, PRAW, PostgreSQL, and JS.",
-      link: "https://github.com/grahamcodes/HabsGrudgeBot"
+      link: "https://github.com/grahamre/HabsGrudgeBot"
     },
     {
       title: "NASA Image of the Day",
       content: "This is an Android mobile app that pulls data from NASA's Astronomy Picture of the Day API. The UI shows the daily image and allows the user to view past images via calendar selection. The user may save favorite images. I had a lot of fun with this project and progressed beyond the requirements with some personal goals involving animated backgrounds.",
-      link: "https://github.com/grahamcodes/NASA_IotD"
+      link: "https://github.com/grahamre/NASA_IotD"
     },
     {
       title: "DrawnToYou",
@@ -26,17 +26,17 @@ const Projects: React.FC = () => {
     {
       title: "Solitaire",
       content: "This is a Java based Solitaire application. This was a class project focused on Agile development in which I played the role of Product Owner. The game was programmed around a growing list of requirements, necessitating constant modification. GUI assembled with Swing.",
-      link: "https://github.com/grahamcodes/Solitaire_Group_5"
+      link: "https://github.com/grahamre/Solitaire_Group_5"
     },
     {
       title: "Morse Coder",
       content: "An app that converts text into Morse code. Text input is converted into dot-dash notation and may be output sonically in beeps. This was my introduction to Python. Uses Tkinter to assemble the GUI.",
-      link: "https://github.com/grahamcodes/MorseCoder"
+      link: "https://github.com/grahamre/MorseCoder"
     },
     {
       title: "This Website",
       content: "This is the site you're looking at right now! This is my first forray into React and while this static site is simple, it has really been an exciting and eye-opening introduction to power of modern web-dev. Built with React, Next.js, and styled with Tailwind CSS.",
-      link: "https://github.com/grahamcodes/portfolio"
+      link: "https://github.com/grahamre/portfolio"
     }
   ]
 

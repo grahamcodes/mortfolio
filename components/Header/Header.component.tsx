@@ -62,7 +62,7 @@ const Header: React.FC = () => {
           </a>
         </Link>
 
-        <Link href="https://github.com/grahamcodes" passHref>
+        <Link href="https://github.com/grahamre" passHref>
           <a
             className="rounded-lg border-2 border-sludge bg-sludge p-2 text-2xl text-white hover:border-creamsicle"
             target="_blank"
